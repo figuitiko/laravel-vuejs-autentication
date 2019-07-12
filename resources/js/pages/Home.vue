@@ -1,5 +1,5 @@
 <template>
-    <template>
+
         <div class="container">
             <div class="card card-default">
                 <div class="card-header">Bienvenue</div>
@@ -12,7 +12,8 @@
                     </p>
                 </div>
             </div>
+            este es el usario + {{$auth.user().id }}
         </div>
-    </template>
+
 </template>
 
